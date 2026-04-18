@@ -1,6 +1,6 @@
 # Thread Minutes: Coconala thumbnail generation
 - Date: 2026-04-18
-- Request: ココナラ出品用に、受注しやすいタイトルに合うサムネイル画像を生成する。
-- Actions: HTMLテンプレを作成し、表示切れ対策として1220x1016比率に再調整してPNGを再出力。
-- Outcome: `docs/assets/coconala-thumbnail-webfix.png` を1220x1016で更新し、ココナラ表示向けの文字配置に最適化。
-- Next: 必要なら同テンプレで色違い・訴求違いのA/B版を追加生成する。
+- Request: サムネを「悩み→解決」構成にし、最短24時間・3箇所・キャンペーン7,500円を固定表示したい。
+- Actions: HTMLテンプレを再設計し、先着5件限定キャンペーンを最上段で強調して1220x1016 PNGを再生成。
+- Outcome: `docs/assets/coconala-thumbnail-webfix.png` を更新し、悩み訴求から解決訴求へ一目で伝わる構成に変更。
+- Next: 必要なら同構成の色違いA/B版（青/緑/赤系）を追加出力する。
