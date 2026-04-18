@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coconala Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&family=Noto+Sans+JP:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
         --bg-1: #1247b7;
@@ -15,6 +21,9 @@
         --accent: #ffdf63;
         --campaign-1: #ff4b4b;
         --campaign-2: #ff7d2f;
+        --font-body: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", sans-serif;
+        --font-display: "M PLUS Rounded 1c", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic UI",
+          sans-serif;
       }
 
       * {
@@ -26,7 +35,9 @@
         margin: 0;
         width: 1220px;
         height: 1016px;
-        font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+        font-family: var(--font-body);
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
       }
 
       .canvas {
@@ -54,6 +65,7 @@
         font-size: 38px;
         font-weight: 900;
         letter-spacing: 0.01em;
+        font-family: var(--font-display);
       }
 
       .campaign .right {
@@ -64,6 +76,7 @@
         font-size: 42px;
         font-weight: 900;
         white-space: nowrap;
+        font-family: var(--font-display);
       }
 
       .headline {
@@ -74,12 +87,14 @@
       .headline .problem {
         font-size: 44px;
         font-weight: 800;
+        font-family: var(--font-display);
       }
 
       .headline .solution {
         margin-top: 8px;
         font-size: 68px;
         font-weight: 900;
+        font-family: var(--font-display);
       }
 
       .headline .solution span {
@@ -104,6 +119,7 @@
         font-size: 28px;
         font-weight: 900;
         margin-bottom: 8px;
+        font-family: var(--font-display);
       }
 
       .card ul {
@@ -144,6 +160,7 @@
         font-size: 44px;
         font-weight: 900;
         line-height: 1.1;
+        font-family: var(--font-display);
       }
 
       .pill.price .value {
