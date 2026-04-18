@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+coverage/
+.next/
+out/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Python artifacts
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Cursor generated metadata (keep rules tracked)
+.cursor/cache/
