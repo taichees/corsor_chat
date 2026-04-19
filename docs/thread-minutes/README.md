@@ -11,9 +11,9 @@ docs/thread-minutes/
 │   └── minutes.md
 └── <YYYY-MM-DD-thread-slug>/
     ├── minutes.md       ← 議事録（必須）
-    ├── *.html           ← 関連成果物（任意）
-    ├── *.png            ← 関連成果物（任意）
-    └── ...
+    ├── *.html / *.png   ← 軽微な成果物は同フォルダ直下に配置
+    └── docs/            ← 補足ドキュメントが多いときは任意でサブフォルダ化
+        └── *.md
 ```
 
 ## 使い方
@@ -21,7 +21,8 @@ docs/thread-minutes/
 1. 新しいスレッド開始時に `YYYY-MM-DD-thread-slug` 形式のフォルダを作成
 2. `_template/minutes.md` をコピーして `<thread-folder>/minutes.md` に配置
 3. **3〜6行** で簡潔に記載
-4. 関連する成果物（HTML / 画像 / コード断片など）は**同じフォルダ内**に置く
+4. 関連する成果物（HTML / 画像 / コード断片など）は**同じスレッドフォルダ内**に置く
+   - 数点なら直下、補足ドキュメントが複数ある場合は `<thread-folder>/docs/` にまとめてもよい
 5. 必要に応じて議事録を更新
 
 ## 議事録の必要項目
