@@ -53,7 +53,7 @@
 
 ## 出品運用メモ
 - 既存「軽微Web修正」からの導線用に、サービス説明末尾で相互リンクを置く
-- サムネは `docs/assets/coconala-thumbnail-webfix.html` のレイアウトを踏襲し、悩み→解決の二段構成で統一
+- サムネは `docs/thread-minutes/2026-04-18-coconala-thumbnail/coconala-thumbnail-webfix.html` のレイアウトを踏襲し、悩み→解決の二段構成で統一
 - 口コミ獲得のため、初月のみ「先着◯件 割引」バッジを共通で使う
 
 ---
